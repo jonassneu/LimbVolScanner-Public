@@ -1,107 +1,132 @@
 <p align="center">
   <a href="https://limbvol.de">
-    <img src="assets/limbvol-logo.svg" alt="LimbVolScanner" width="420">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+      <img src="assets/hero-light.svg" width="100%" alt="LimbVolScanner. Measure limb volume in 3D. Capture a leg’s shape with an iPhone and calculate its volume from a 3D model.">
+    </picture>
   </a>
 </p>
 
-<h3 align="center">Measure limb volume in 3D.</h3>
-
 <p align="center">
-  Capture a limb's shape with an iPhone and calculate its volume from a 3D model.
+  <a href="https://limbvol.de">Website</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="#how-it-works">How it works</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="#validation">Validation</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="#pilot-program">Pilot program</a>
 </p>
 
 <p align="center">
-  <a href="https://limbvol.de"><img alt="Website" src="https://img.shields.io/badge/website-limbvol.de-006DFF?style=flat-square"></a>
-  <img alt="Platform" src="https://img.shields.io/badge/platform-iPhone-1d1d1f?style=flat-square&logo=apple">
-  <img alt="Status" src="https://img.shields.io/badge/status-development%20prototype-52617b?style=flat-square">
+  <b>Development prototype.</b> Not CE-marked; not available for clinical use.
 </p>
 
-> [!IMPORTANT]
-> **Development prototype.** LimbVolScanner is not CE-marked and is not available for clinical use.
-> It is not a tool for diagnosis or treatment decisions. Accuracy and repeatability have not yet been validated.
+<br>
 
----
+<h2 align="center" id="why-3d">Measure the shape itself.</h2>
 
-## Why 3D measurement?
+<p align="center">
+  Tape measurements at a few points estimate volume with simplified geometry.<br>
+  LimbVolScanner captures the leg’s surface in 3D and calculates volume from that shape.
+</p>
 
-**Measure the shape itself.**
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/why-3d-dark.svg">
+    <img src="assets/why-3d-light.svg" width="100%" alt="Current method: tape measurements at a few points, with volume from a geometric approximation. With LimbVolScanner: the whole leg surface is captured, with volume from the 3D surface.">
+  </picture>
+</p>
 
-| | Current method | With LimbVolScanner |
-|---|---|---|
-| **Approach** | Tape measurements at a few selected points | Scan the whole leg from thigh to ankle |
-| **Volume from** | A simplified geometric approximation | The captured 3D surface |
+<p align="center"><sub>Capturing the whole surface does not, by itself, show greater accuracy. Validation still has to show that.</sub></p>
 
-Capturing the full surface does not by itself prove greater accuracy or clinical usefulness. That has to be shown through validation (see [Validation](#validation)).
+<br>
 
-## How it works
+<h2 align="center" id="how-it-works">Scan. Review. Track.</h2>
 
-**Scan. Review. Track.**
+<p align="center">
+  A guided scan from the upper thigh to the ankle creates a 3D model and calculates the leg’s volume.
+</p>
 
-1. **Scan the leg.** Move the iPhone around the leg, from thigh to ankle, following the on-screen guidance.
-2. **Review the volume.** Check the 3D model and the calculated volume, then save the measurement.
-3. **Track changes.** Compare with earlier scans to follow volume changes between visits.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/how-it-works-dark.svg">
+    <img src="assets/how-it-works-light.svg" width="100%" alt="1. Scan the leg: move the iPhone around the leg, from thigh to ankle. 2. Review the volume: see the 3D model and its volume, then save it. 3. Track changes: compare with earlier scans between visits.">
+  </picture>
+</p>
 
-The scanned segment runs from the upper thigh to the ankle. The foot is excluded.
+<p align="center"><sub>Illustrative screens and values. Not clinical results.</sub></p>
 
-## Features
+<br>
 
-- 📱 **Runs on iPhone**: no extra hardware needed
-- 🧊 **3D limb capture**: the whole surface instead of a handful of circumferences
-- 🧭 **Guided workflow**: on-screen guidance during the scan
-- 📈 **Digital volume tracking**: saved measurements you can compare over time
+<h2 align="center" id="evaluation">Track volume over time.</h2>
 
-## Areas for evaluation
+<p align="center">
+  We want to find out how 3D measurements could help track limb-volume changes in:
+</p>
 
-We want to find out how 3D measurements could help track limb-volume changes in:
+<p align="center">
+  <b>Lymphedema</b>&nbsp;&nbsp;·&nbsp;&nbsp;<b>Lipedema</b>&nbsp;&nbsp;·&nbsp;&nbsp;<b>Pre- and post-treatment measurements</b>&nbsp;&nbsp;·&nbsp;&nbsp;<b>Long-term volume monitoring</b>
+</p>
 
-- Lymphedema
-- Lipedema
-- Pre- and post-treatment measurements
-- Long-term volume monitoring
+<br>
 
-## Validation
+<h2 align="center" id="validation">Performance validation is pending.</h2>
 
-**Performance validation is pending.**
+<p align="center">
+  Accuracy and repeatability have to be established before any clinical use.
+</p>
 
-| Metric | Status |
-|---|---|
-| Volume error | Not yet published |
-| Repeatability | Not yet published |
-| Scan time | < 1 min (development target) |
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/validation-dark.svg">
+    <img src="assets/validation-light.svg" width="100%" alt="Volume error: not yet published. Repeatability: not yet published. Scan time: under one minute, a development target.">
+  </picture>
+</p>
 
-Open validation questions:
+<p align="center">
+  Open questions: volume error against a reference method, repeatability across repeated scans,<br>
+  the effect of different operators and capture conditions, and a consistent definition of the measured leg segment.<br>
+  Supported iPhone models and a validated capture protocol are not specified yet.
+</p>
 
-- Volume error against an appropriate reference method
-- Repeatability across repeated scans
-- Effects of different operators and capture conditions
-- A consistent definition of the measured leg segment
+<p align="center">
+  <a href="https://limbvol.de/measurement.html">Read about the measurement approach&nbsp;›</a>
+</p>
 
-Supported iPhone models and a validated capture protocol have not been specified yet.
+<br>
 
-More detail: [Measurement approach](https://limbvol.de/measurement.html)
+<h2 align="center" id="pilot-program">Interested in testing LimbVolScanner?</h2>
 
-## Pilot program
+<p align="center">
+  Clinics and researchers can get in touch to discuss a structured evaluation.<br>
+  An inquiry does not enroll anyone in a study or authorize patient use.<br>
+  Any evaluation requires a separate agreement and the applicable regulatory and data-protection arrangements.
+</p>
 
-Clinics and researchers can get in touch to discuss a structured evaluation, either through
-[limbvol.de](https://limbvol.de/#pilot-form) or by email at **[kontakt@limbvol.de](mailto:kontakt@limbvol.de)**.
+<p align="center">
+  <a href="https://limbvol.de/#pilot-form"><img src="assets/request-pilot-light.svg" height="48" alt="Request a pilot"></a>
+</p>
 
-Sending an inquiry does not enroll anyone in a study or authorize patient use. Any evaluation needs a separate
-agreement and the applicable regulatory and data-protection arrangements.
+<p align="center">
+  or write to <a href="mailto:kontakt@limbvol.de">kontakt@limbvol.de</a>
+</p>
 
-> [!CAUTION]
-> Please do **not** send patient information or health data, by email or in GitHub issues.
+<p align="center">
+  <b>Please do not include patient information or health data.</b>
+</p>
 
-## Links
+<br>
+<br>
 
-- 🌐 Website: [limbvol.de](https://limbvol.de)
-- 📐 Measurement approach: [limbvol.de/measurement](https://limbvol.de/measurement.html)
-- ✉️ Contact: [limbvol.de/contact](https://limbvol.de/contact.html)
-- 🔒 Privacy: [limbvol.de/privacy](https://limbvol.de/privacy.html)
-- Impressum: [limbvol.de/impressum](https://limbvol.de/impressum.html)
+<p align="center">
+  <a href="https://limbvol.de">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/limbvol-logo-dark.svg">
+      <img src="assets/limbvol-logo.svg" width="260" alt="LimbVolScanner">
+    </picture>
+  </a>
+</p>
 
-## License
+<p align="center"><b>3D measurement. Real impact.</b></p>
 
-© 2026 LimbVolScanner. All rights reserved.
-This repository does not grant any license to use, copy, modify, or distribute its contents unless explicitly stated otherwise.
+<p align="center">
+  <sub><a href="https://limbvol.de/contact.html">Contact</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://limbvol.de/privacy.html">Privacy</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://limbvol.de/impressum.html">Impressum</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://limbvol.de/datenschutz.html">Datenschutz</a></sub>
+</p>
 
-<p align="center"><sub><b>3D measurement. Real impact.</b></sub></p>
+<p align="center">
+  <sub>© 2026 LimbVolScanner. All rights reserved. No license is granted to use, copy, modify, or distribute the contents of this repository.</sub>
+</p>
